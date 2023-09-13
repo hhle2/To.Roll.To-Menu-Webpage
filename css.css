@@ -1,0 +1,142 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    width: 8.5in;
+    height: 10in;
+    min-width: 408px;
+
+    margin: auto;
+
+}
+header {
+    width: 100%;
+    height: 100%;
+    background-image: url("back.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    border-left: 1px solid black ;
+}
+#tit {
+    width: 70%;
+    height: 6.5%;
+    display: flex;
+    padding-top: 2em;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 2em;
+
+
+
+}
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.7em;
+    color: #d6c392;
+    -webkit-text-stroke: 0.05vw lightslategray;
+    text-shadow: 2px 5px 2px lightgoldenrodyellow;
+    text-align: center;
+
+}
+
+
+
+#content {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+
+.mon1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.new1 .firstline, .mon1 p.pri{
+    line-height: 0.8em;
+
+    color: black;
+    padding-bottom: 0.77em;
+
+
+}
+.new1>p.lastline {
+    font-size: 1.25em;
+    padding-left: 1em;
+    line-height: 1.4em;
+    margin-bottom: 0.2em;
+}
+.mon1 {
+    padding-bottom: 2.3em;
+}
+
+.new1>p.firstline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.space {
+    padding-right: 0.5em;
+}
+.new_space {
+    font-size: 0.85em;
+    padding-top: 1.2em;
+    padding-bottom: 0.2em;
+    font-family: 'Merriweather', serif;
+
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 2px lightgoldenrodyellow;
+
+}
+#content>div:first-child {
+    padding-top: 1.4em;
+}
+#content h2 i {
+    padding-left: 0.75em;
+    color: white;
+    -webkit-text-stroke: 0.1vw black;
+    font-size: 1.4em;
+}
+
+img{
+    width: 100%;
+    height: 19.5%;
+
+
+}
+
+hr {
+    background-color: lightyellow;
+    height: 2px;
+    border-color: sandybrown;
+
+    margin-bottom: 1em;
+}
+
+
+.font {
+    padding-top: 1.4em;
+}
+#conclu p {
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px 2px lightgoldenrodyellow;
+    font-size: 1.05em;
+    text-align: center;
+
+
+}
+#conclu {
+    margin-bottom: 6em;
+}
